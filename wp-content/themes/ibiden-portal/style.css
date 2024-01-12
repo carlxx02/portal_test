@@ -1,0 +1,175 @@
+/*
+Theme Name: Ibiden Portal Site
+Author: Carlito Mendoza
+Description: A Portal Site System for Ibiden Philippines
+Version: 1.0
+*/
+/* Add these styles to your existing CSS */
+
+/* Header styles */
+header {
+    position: relative;
+    background-color: #f7f7f7;
+    color: #270202;
+    padding: 15px 0;
+    text-align: center;
+}
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+/* Navbar styles */
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 10px;
+}
+
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.navbar li {
+    float: left;
+}
+
+.navbar a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar a:hover:not(.active) {
+    background-color: #111;
+}
+
+.navbar .active {
+    background-color: #04AA6D;
+}
+
+/* Search and Login styles */
+.search-login-container {
+    display: flex;
+    align-items: center;
+}
+
+.search-bar {
+    margin-right: 10px;
+}
+
+.search-bar input[type="text"] {
+    padding: 5px;
+}
+
+.login-button button {
+    background-color: #ffcc00;
+    color: #333;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.login-button button:hover {
+    background-color: #fff;
+    color: #333;
+}
+
+/* Footer styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-logo img {
+    width: 50px;
+    height: 50px;
+}
+
+.footer-navigation {
+    display: flex;
+}
+
+.footer-menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.footer-menu li {
+    margin-right: 20px;
+}
+
+.footer-menu a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.footer-menu a:hover {
+    text-decoration: underline;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.left-column {
+    width: 70%;
+}
+
+.right-column {
+    width: 30%;
+}
+
+.featured-content, .news-content {
+    margin-bottom: 20px;
+}
+
+.featured-post, .news-post, .event {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.pagination {
+    margin-top: 20px;
+}
+
+.categories, .archives, .tags {
+    margin-top: 20px;
+}
+
+/* Clearfix for floated elements */
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
